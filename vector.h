@@ -3,6 +3,10 @@
 
 template<typename T> class Vector;
 
+//Create new way to initialize vector, by passing list
+//Overload the operators + * - to eliminate the amount of functions such as add subtract and multiply
+
+
 template <typename T>
 class Vector{
 	friend class Armazem<T>;
